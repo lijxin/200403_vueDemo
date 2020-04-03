@@ -1,0 +1,17 @@
+<template>
+    <Header title="搜索"></Header>
+</template>
+
+<script>
+    import Header from "../../components/Header/Header";
+    export default {
+        components: {
+            Header
+        }
+    }
+</script>
+
+<style lang="stylus" rel="stylesheet/stylus" scoped>
+
+ 
+</style>
