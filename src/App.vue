@@ -7,8 +7,14 @@
 
 <script>
     import Footer from "./components/Footer/Footer"
+    import {reqDataNull} from './api'
 
     export default {
+        async mounted () {
+             const result = await reqDataNull   
+             console.log(result)
+        },
+
         components: {
             Footer
         }
